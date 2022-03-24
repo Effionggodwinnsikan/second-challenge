@@ -1442,11 +1442,11 @@ h1{
     }
     .icon{
         width: 25%;
-    }
+    }  
 
  @media (min-width: 375px){    
 
-h1{
+ h1{
     font-size: 18px;
     margin-left: 10px;
  }
@@ -1536,5 +1536,33 @@ h1{
         font-size:10px;
         margin-right: 20px;
     }
-    
+ 
+    @media (min-width: 349px){    
+
+        h1{
+            font-size: 15px;
+            margin-left: 10px;
+         }
+         
+         .text>p{
+              margin-left:-90px;
+          }
+          .my-image{
+              margin-left:-30px; 
+          }
+          .reg{
+              margin-left: 19px;
+              padding-right: 19px;
+              margin-top:-20px;
+
+          
+            }
+            .meeting{
+                width:70%;
+                margin-left:60px;
+                font-size: 7px;
+            }
+            
+
+
 }
